@@ -19,6 +19,8 @@ public class Hesap_makinasi {
         int toplam=(mat+fizik+kimya+turkce+muzik+tarih);
         double sonuc=toplam/6;
         System.out.println("ortalama:"+ sonuc);
+        var s = sonuc > 60 ? "Geçti" : "Kaldı";
+        System.out.println(s);
 
     }
 }
